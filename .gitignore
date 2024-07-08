@@ -1,8 +1,8 @@
-# Ignore node_modules
-node_modules/
+# Ignore Node.js dependencies in ts folder
+/ts/node_modules/
 
-# Ignore Composer dependencies
-/vendor/
+# Ignore Composer dependencies in php folder
+/php/vendor/
 
 # Ignore environment variable files
 .env
@@ -15,11 +15,11 @@ node_modules/
 *.tmp
 
 # Ignore IDE and editor config files
-.idea/
-.vscode/
-nbproject/
-*.sublime-project
-*.sublime-workspace
+/ts/.idea/
+/ts/.vscode/
+/ts/nbproject/
+/ts/*.sublime-project
+/ts/*.sublime-workspace
 
 # Ignore OS generated files
 .DS_Store
@@ -29,12 +29,12 @@ Thumbs.db
 .phpunit.result.cache
 
 # Ignore build and release directories
-/build/
-dist/
+/ts/build/
+/ts/dist/
 
 # Ignore coverage reports
-coverage/
-coverage.xml
+/ts/coverage/
+/ts/coverage.xml
 
 # Ignore Composer PHAR
 composer.phar
@@ -47,14 +47,14 @@ phpunit.xml
 phpunit.xml.dist
 
 # Ignore personal IDE settings
-*.iml
-*.ipr
-*.iws
+/ts/*.iml
+/ts/*.ipr
+/ts/*.iws
 
 # Ignore any local only files
 *.local
 *.cache
 
 # Ignore specific directories
-/.github/
-docs/
+/.github/   # GitHub specific configurations
+/docs/      # Documentation

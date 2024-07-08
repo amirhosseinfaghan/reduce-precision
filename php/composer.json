@@ -1,7 +1,7 @@
 {
     "name": "arz-digital-labs/reduce-precision",
     "description": "A PHP package for reducing precision of numbers.",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
